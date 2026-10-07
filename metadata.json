@@ -1,0 +1,6 @@
+{
+  "name": "Museum Aurelia — The Weight of Memory",
+  "description": "A monumental, cinematic landing page for Museum Aurelia, a private museum of art, history and material culture in a grand European palace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

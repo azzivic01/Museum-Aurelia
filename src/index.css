@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-palace-dark: #0b0a09;
+  --color-palace-surface: #141210;
+  --color-palace-panel: #1b1815;
+  --color-palace-stone: #26221e;
+  --color-palace-border: rgba(220, 205, 185, 0.12);
+  --color-palace-marble: #ede8df;
+  --color-palace-parchment: #ded8cb;
+  --color-palace-gold: #c5a86d;
+  --color-palace-bronze: #8f774d;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #0b0a09;
+    color: #ede8df;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Subtle editorial film grain simulation */
+.bg-grain {
+  background-image: radial-gradient(rgba(237, 232, 223, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom quiet scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0a09;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2520;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #473e36;
+}
